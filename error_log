@@ -1,0 +1,56 @@
+[30-Aug-2022 19:24:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(39): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207
+[30-Aug-2022 21:12:57 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 30 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(39): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207
+[31-Aug-2022 10:14:45 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(39): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207
+[31-Aug-2022 17:19:53 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(44): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207
+[31-Aug-2022 17:21:50 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(45): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207
+[31-Aug-2022 17:27:58 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(45): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207
+[31-Aug-2022 17:29:59 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2207
+Stack trace:
+#0 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 A...', 'Email enviado p...')
+#2 /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/atlant43/public_html/email-sender.php(45): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/atlant43/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2207

@@ -12,26 +12,32 @@ use PHPMailer\PHPMailer\SMTP;
 
 $mail = new PHPMailer(true);
 
-//$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
 $mail->isSMTP();
 $mail->SMTPAuth = true;
+$mail->CharSet = 'UTF-8';
 
-$mail->Host = "smtp.office365.com";
+$mail->Host = "webdomain04.dnscpanel.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+$mail->Port = 465;
 
-$mail->Username = "sddavid_@hotmail.com";
-$mail->Password = "58FA714383";
+$mail->Username = "geral@atlanticautomoveis.pt";
+$mail->Password = "mariocosta2022";
 
 $mail->setFrom("sddavid_@hotmail.com", "David");
 $mail->addAddress("sddavid_@hotmail.com", "David");
+$mail->SMTPOptions=array('ssl'=>array(
+    'verify_peer'=>false,
+    'verify_peer_name'=>false,
+    'allow_self_signed'=>false
+));
  // Set Message
 $mail->isHTML(true); 
 $message = "Email enviado por: " . $name . "<br />";
 $message .= "Email address: " . $email . "<br />";
 $message .= "Message:" . $mensagem . "<br />";
-$message .= "<br /> ----- <br /> Este email foi enviado através do site. <br />";
+$message .= "<br /> ----- <br /> Este email foi enviado atraves do site. <br/>";
 
 $mail->Subject = $subject;
 $mail->Body = $message;
