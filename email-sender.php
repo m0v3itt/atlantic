@@ -12,26 +12,21 @@ use PHPMailer\PHPMailer\SMTP;
 
 $mail = new PHPMailer(true);
 
-$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+//$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->SMTPDebug = 2;
 
 $mail->isSMTP();
 $mail->SMTPAuth = true;
-$mail->CharSet = 'UTF-8';
 
 $mail->Host = "webdomain04.dnscpanel.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 465;
-
+$mail->SMTPSecure='tls';
 $mail->Username = "geral@atlanticautomoveis.pt";
 $mail->Password = "mariocosta2022";
 
-$mail->setFrom("sddavid_@hotmail.com", "David");
-$mail->addAddress("sddavid_@hotmail.com", "David");
-$mail->SMTPOptions=array('ssl'=>array(
-    'verify_peer'=>false,
-    'verify_peer_name'=>false,
-    'allow_self_signed'=>false
-));
+$mail->setFrom("geral@atlanticautomoveis.pt", "David");
+$mail->addAddress("geral@atlanticautomoveis.pt", "David");
  // Set Message
 $mail->isHTML(true); 
 $message = "Email enviado por: " . $name . "<br />";
