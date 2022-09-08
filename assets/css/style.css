@@ -150,7 +150,7 @@
     font-weight: 600;
 }
 .swiper-button-next:hover:after, .swiper-button-prev:hover:after{
-    background: #2553b8;
+    background: #00adb4;
 }
 .swiper-button-next, .swiper-button-prev{
     width: auto;
